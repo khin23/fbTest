@@ -1,0 +1,30 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49920/",
+      "sslPort": 44361
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:44361/",
+      "environmentVariables": {
+        "Authentication:Facebook:AppId": "143889802882280 ",
+        "Authentication:Facebook:AppSecret": "7c8613e96165e71d96ddeb3fa20d59cc",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "fbTest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:49921/"
+    }
+  }
+}
