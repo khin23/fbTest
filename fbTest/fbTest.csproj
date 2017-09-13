@@ -4,6 +4,7 @@
     <UserSecretsId>aspnet-fbTest-ED701219-4017-46B9-B8B7-EA4353D3A412</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="BootstrapMvc.Core" Version="2.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="2.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" PrivateAssets="All" />
