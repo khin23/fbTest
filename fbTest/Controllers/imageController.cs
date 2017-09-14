@@ -20,6 +20,10 @@ namespace bootstrap.Controllers
             return View();
         }
 
+        public ActionResult TAndC()
+        {
+            return View();
+        }
         // GET: image/Details/5
         public ActionResult Details(int id)
         {
