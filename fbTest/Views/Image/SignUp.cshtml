@@ -4,14 +4,27 @@
 @{
     ViewData["Title"] = "SignUp";
 }
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="breadcrumb">
+                <li><a asp-controller="image" asp-action="Index">Home</a></li>
+                <li class="active">Sign Up/Log in</li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="btn-group btn-group-justified">
    @* <a href="#" class="btn btn-primary btn-lg btn-block">Sign Up with Facebook</a> *@
     <a class="btn btn-primary btn-lg btn-block" asp-controller="Account" asp-action="Login">Sign Up with Facebook</a>
 </div>
 
-<div>
-    <p>-------------Or-----------------</p>
-</div>
+
+    <div>
+        <p>-------------Or-----------------</p>
+    </div>
+
 <div>
     @* <a href="#" class="btn btn-primary btn-lg btn-block">Sign Up with Email</a> *@
     <a class="btn btn-primary btn-lg btn-block" asp-controller="Account" asp-action="Login">Sign Up with Email</a>
