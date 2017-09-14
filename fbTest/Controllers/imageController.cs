@@ -4,10 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using fbTest.Models;
 
-
-namespace fbTest.Controllers
+namespace bootstrap.Controllers
 {
     public class imageController : Controller
     {
@@ -17,12 +15,10 @@ namespace fbTest.Controllers
             return View();
         }
 
-        //Get SignUp Page
         public ActionResult SignUp()
         {
             return View();
         }
-
 
         // GET: image/Details/5
         public ActionResult Details(int id)
