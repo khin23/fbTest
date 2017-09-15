@@ -1,0 +1,35 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "AboutUs";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="breadcrumb">
+                <li><a asp-controller="image" asp-action="Index">Home</a></li>
+                <li class="active">About Us</li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2>About Us</h2>
+    <a href="#" class="btn btn-primary">How it works</a>   
+</div>
+
+<div class="container">
+    <div class="btn-group btn-group-justified">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+            <a asp-controller="image" asp-action="SignUp" class="btn btn-default">Sign Up Now</a>
+        </div>
+        <div class="col-sm-3">
+            <a asp-controller="image" asp-action="Index" class="btn btn-default">Find Out More</a>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+</div>

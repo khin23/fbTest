@@ -9,6 +9,19 @@
     ViewData["Title"] = "Log in";
 }
 
+
+<!----BreadCrubs-->
+<div class="container">
+
+    <ul class="breadcrumb">
+        <li><a asp-controller="image" asp-action="Index">Home</a></li>
+        <li><a asp-controller="image" asp-action="SignUp">Sign Up/Log in</a></li>
+        <li class="active">Log in </li>
+    </ul>
+</div>
+
+
+
 <h2>@ViewData["Title"]</h2>
 <div class="row">
     <div class="col-md-4">
