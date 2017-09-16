@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "AboutUs";
 }
-<div class="container">
+
     <div class="row">
         <div class="col-md-12">
             <ul class="breadcrumb">
@@ -13,23 +13,26 @@
 
             </ul>
         </div>
-    </div>
-</div>
-
-<div class="container">
-    <h2>About Us</h2>
-    <a href="#" class="btn btn-primary">How it works</a>   
-</div>
-
-<div class="container">
-    <div class="btn-group btn-group-justified">
-        <div class="col-sm-3"></div>
-        <div class="col-sm-3">
-            <a asp-controller="image" asp-action="SignUp" class="btn btn-default">Sign Up Now</a>
+        <div class="col-md-12">
+            <h2>About Us</h2>
+            <a href="#" class="btn btn-primary">How it works</a>   
         </div>
-        <div class="col-sm-3">
-            <a asp-controller="image" asp-action="Index" class="btn btn-default">Find Out More</a>
+        <div class="col-md-12" style="margin-top:20px;">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-3">
+                    <a asp-controller="image" asp-action="SignUp" class="btn btn-default" style="width: 300px">Sign Up Now</a>
+                </div>
+                <div class="col-md-3">
+                    <a asp-controller="image" asp-action="Index" class="btn btn-default" style="width: 300px">Find Out More</a>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
         </div>
-        <div class="col-sm-3"></div>
     </div>
-</div>
+
+

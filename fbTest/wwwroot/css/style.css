@@ -1,0 +1,20 @@
+﻿@media screen and (min-width: 0px) and (max-width: 600px) {/* this media query for screen resolution 0 to 600px*/
+    #web-content {
+        display: none;
+    }
+
+    #mobile-content {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 1920px) {/* this media query for screen resolution 601 to 1920spx*/
+    #web-content {
+        display: block;
+    }
+
+    #mobile-content {
+        display: none;
+    }
+}
